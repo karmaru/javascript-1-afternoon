@@ -3,31 +3,33 @@
 //Create a variable called myName that is a string data type
 
 //Code here
+var myName = "Todd";
 
 //////////////////PROBLEM 2////////////////////
 
 //Create a variable called myAge that is a number data type
 
 //Code here
+var myAge = 46;
 
 //////////////////PROBLEM 3////////////////////
 
 //Create a variable called lovesCode that is a boolean data type
 
 //Code here
-
+var lovesCode = true;
 //////////////////PROBLEM 4////////////////////
 
 //Create a variable called greatestFear that is undefined because we fear nothing
 
 //Code here
-
+var greatestFear;
 //////////////////PROBLEM 5////////////////////
 
 //Create a variable called devMountainGoal that is null because we are just starting out
 
 //Code here
-
+var devMountainGoal = null;
 //////////////////PROBLEM 6////////////////////
 
 //Create a function declaration called greeting that
@@ -36,7 +38,9 @@
 //plus the value of the name parameter.
 
 //Code here
-
+function greeting (name) {
+  return "Hello, " + name
+}
 //////////////////PROBLEM 7////////////////////
 
 //Rewrite the function greeting as a function expression.
