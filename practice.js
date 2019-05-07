@@ -47,13 +47,16 @@ function greeting (name) {
 //Name it newGreeting.
 
 //Code Here
-
+var newGreeting = function (name) {
+  return "Hello, " + name
+}
 //////////////////PROBLEM 8////////////////////
 
 //Create an array called groceries with the values
 //"apples", "milk", "eggs", "bread"
 
 //Code Here
+var groceries = ["apples", "milk", "eggs", "bread"]
 
 //////////////////PROBLEM 9////////////////////
 
@@ -63,12 +66,18 @@ function greeting (name) {
 //and goodBoy (a boolean).
 
 //Code Here
+var dog = {
+  name: "Zoey",
+  color: "Tan",
+  age: 5,
+  goodBoy: false
+}
 
 //...access the dog's name from the object and assign it to a
 //variable called devMountainClassPet.
 
 //Code Here
-
+//var devMountainClassPet = dog.name
 //////////////////PROBLEM 10////////////////////
 
 //Write a function called nameCheck that takes in a name parameter.
